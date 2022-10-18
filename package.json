@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  },
+  "name": "playwright",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "playwright-core": "^1.27.1"
+  },
+  "scripts": {
+    "test:chrome": "npx playwright test --headed --browser=chromium",
+    "test:firefox": "npx playwright test --headed --browser=firefox",
+    "test:safari": "npx playwright test --headed --browser=webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arturo-MT/playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arturo-MT/playwright/issues"
+  },
+  "homepage": "https://github.com/Arturo-MT/playwright#readme"
+}
