@@ -1,6 +1,6 @@
 # Test Safari with Playwright
 
-To install de repo:
+To get started:
 
     npm install
 
